@@ -5,8 +5,8 @@ import java.util.UUID;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
+import com.apirest.webflux.document.Playlist;
 import com.apirest.webflux.repository.PlaylistRepository;
-import com.apirest.webfluxdocument.Playlist;
 
 import reactor.core.publisher.Flux;
 

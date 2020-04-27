@@ -1,4 +1,4 @@
-package com.apirest.webfluxdocument;
+package com.apirest.webflux.document;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;

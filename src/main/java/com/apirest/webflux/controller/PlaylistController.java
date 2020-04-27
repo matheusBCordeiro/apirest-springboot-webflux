@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.apirest.webflux.document.Playlist;
 import com.apirest.webflux.services.PlaylistService;
-import com.apirest.webfluxdocument.Playlist;
 
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;

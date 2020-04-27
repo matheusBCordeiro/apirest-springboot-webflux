@@ -3,8 +3,8 @@ package com.apirest.webflux.services;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import com.apirest.webflux.document.Playlist;
 import com.apirest.webflux.repository.PlaylistRepository;
-import com.apirest.webfluxdocument.Playlist;
 
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
